@@ -47,7 +47,7 @@ function generateMarkdown(data) {
   * [License](#licensing)
   * [Contributions](#contribution)
   * [Testing](#testing)
-  * [Inqueries](#inquerie)
+  * [Inqueries](#inqueries)
   * [Credits](#credit)
 
   ## Description
@@ -72,7 +72,7 @@ function generateMarkdown(data) {
   GitHub: https://github.com/${data.ghub}
   Email: ${data.mail}
 
-  ## Credits
+  ## Credit
   ${data.naming}
 `;
 }
