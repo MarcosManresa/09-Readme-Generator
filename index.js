@@ -94,19 +94,7 @@ const questions = [
             }
         }
     },
-    {
-        type: `input`,
-        name: `use`,
-        message: `Instruction for proper usage:`,
-        validate: useInput =>{
-            if(useInput){
-                return true;
-            } else {
-                console.log(` Provide proper instructions so nagivation can be made simple.`);
-                return false;
-            }
-        }
-    },
+    
     {
         type: `input`,
         name: `testing`,

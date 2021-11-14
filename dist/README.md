@@ -1,6 +1,6 @@
-# sd
+# awd
 
-  
+  ![MIT License](https://img.shields.io/badge/License-MIT-brightgreen)(http://lbesson.mit-license.org/)
 
   ## Table of Contents
   * [Description](#description)
@@ -13,26 +13,27 @@
   * [Credits](#credit)
 
   ## Description
-  sa
+  s
 
   ## Installation
-  ds
+  a
 
   ## Usage
-  d
+  undefined
 
-  
+   ## Licenses
+    This project is protected under  the MIT license. To gain a further understanding, click the license button at the top.
 
   ## Contributions
-  as
+  d
 
   ## Testing
-  d
+  a
 
   ## Inqueries
   If there are any Inqueries about this project contact me at:
-  GitHub: https://github.com/sd
-  Email: s
+  GitHub: https://github.com/djwadjawd
+  Email: wad
 
   ## Credits
-  sd
+  awd

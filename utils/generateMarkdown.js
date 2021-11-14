@@ -1,36 +1,36 @@
 const fs = require(`fs`);
 // TODO: Create a function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
-function renderLicenseBadge(license) {
-  if (!license){
+function renderLicenseBadge(licensing) {
+  if (!licensing){
     return ``;
   }else{
-    return `[${license} License](https://img.shields.io/badge/License-${license}-brightgreen)](${renderLicenseLink(license)})`
+    return `![${licensing} License](https://img.shields.io/badge/License-${licensing}-brightgreen)(${renderLicenseLink(licensing)})`
   }
 }
 
 // TODO: Create a function that returns the license link
 // If there is no license, return an empty string
-function renderLicenseLink(license) {
-  if (license === `GPL`){
+function renderLicenseLink(licensing) {
+  if (licensing === `GPL`){
     return `http://perso.crans.org/besson/LICENSE.html`
   }
-  if (license === `MIT`){
+  if (licensing === `MIT`){
     return `http://lbesson.mit-license.org/`
   }
-  if (license === `CC0-1.0`){
+  if (licensing === `CC0-1.0`){
     return `https://creativecommons.org/publicdomain/zero/1.0/`
   }
 }
 
 // TODO: Create a function that returns the license section of README
 // If there is no license, return an empty string
-function renderLicenseSection(license) {
-  if (!license){
+function renderLicenseSection(licensing) {
+  if (!licensing){
     return ``;
   } else {
     return ` ## Licenses
-    This project is protected under  the ${license} license. To gain a further understanding, click the license button at the top.`
+    This project is protected under  the ${licensing} license. To gain a further understanding, click the license button at the top.`
   }
 }
 
