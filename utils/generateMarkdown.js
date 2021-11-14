@@ -45,7 +45,7 @@ function generateMarkdown(data) {
   * [Installation](#installation)
   * [Usage](#usage)
   * [License](#licensing)
-  * [Contributions](#contribution)
+  * [Contribute](#contribute)
   * [Testing](#testing)
   * [Inqueries](#inqueries)
   * [Credits](#credit)
@@ -61,15 +61,15 @@ function generateMarkdown(data) {
 
   ${renderLicenseSection(data.licensing)}
 
-  ## Contributions
+  ## Contribute
   ${data.contribution}
 
   ## Testing
   ${data.testing}
 
   ## Inqueries
-  If there are any Inqueries about this project contact me at:
-  GitHub: https://github.com/${data.ghub}
+  If there are any Inqueries about this project contact me at: </br>
+  GitHub: https://github.com/${data.ghub} </br>
   Email: ${data.mail}
 
   ## Credit

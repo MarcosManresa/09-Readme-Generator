@@ -1,6 +1,7 @@
 // TODO: Include packages needed for this application
 const fs = require("fs");
 const inq = require("inquirer");
+const { userInfo } = require("os");
 const generateMarkdown = require("./utils/generateMarkdown");
 // TODO: Create an array of questions for user input
 const questions = [
@@ -58,6 +59,19 @@ const questions = [
     },
     {
         type: `input`,
+        name: `use`,
+        message: `Instructions for proper usage.`,
+        validate: useInput =>{
+            if (useInput){
+                return true;
+            } else {
+                console.log(`Please provide instructions so users can properly use your application.`);
+                return false;
+            }
+        }
+    },
+    {
+        type: `input`,
         name: `install`,
         message: `What instructions must be followed to replicate a functioning program:`,
         validate: instInput =>{
@@ -84,7 +98,7 @@ const questions = [
     {
         type: `input `,
         name: `contribution`,
-        message: `What contributions could benefit this project:`,
+        message: `What could further be added to improve?`,
         validate: contriInput =>{
             if (contriInput){
                 return true;
