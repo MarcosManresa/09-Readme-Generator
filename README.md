@@ -15,7 +15,7 @@
   ## Description
   A nodejs application requesting user input from the nodejs plugin Inquirer to fill a README.md to be used for user repos. the marked up README.md is edited/created in the dist directory
   
-  ![Gif](https://github.com/MarcosManresa/09-Readme-Generator/blob/main/src/ezgif-1-2d57582ddaa2.gif)
+  ![Gif](https://github.com/MarcosManresa/09-Readme-Generator/blob/main/src/ezgif-1-494d8d15cb14.gif)
 
   ## Installation
   Make sure NodeJs is installed on your machine, as well as gitbash.
