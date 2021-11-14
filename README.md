@@ -1,6 +1,6 @@
 # 09-README-GENERATOR
 
- [MIT License](https://img.shields.io/badge/License-MIT-brightgreen)](http://lbesson.mit-license.org/)
+![MIT License](https://img.shields.io/badge/License-MIT-brightgreen)(http://lbesson.mit-license.org/)
 
   ## Table of Contents
   * [Description](#description)
