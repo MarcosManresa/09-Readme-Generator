@@ -95,19 +95,6 @@ const questions = [
             }
         }
     },
-    {
-        type: `input `,
-        name: `contribution`,
-        message: `What could further be added to improve?`,
-        validate: contriInput =>{
-            if (contriInput){
-                return true;
-            } else {
-                console.log(`Enter instructions on how other GitHub users can contribute to your project.`);
-                return false;
-            }
-        }
-    },
     
     {
         type: `input`,
@@ -118,6 +105,19 @@ const questions = [
                 return true;
             } else{
                 console.log(` Provide the tests taken for your application how it's used.`);
+                return false;
+            }
+        }
+    },
+    {
+        type: `input `,
+        name: `contribution`,
+        message: `What could further be added to improve?`,
+        validate: contriInput =>{
+            if (contriInput){
+                return true;
+            } else {
+                console.log(`Enter instructions on how other GitHub users can contribute to your project.`);
                 return false;
             }
         }
